@@ -1,0 +1,74 @@
+/************** TAG STYLE ************/
+/*/////// STANDARD ELEMENTS /////////*/
+
+body{
+	background-color: #DADAD9;
+
+}
+
+h1{
+	font-size: 30px;
+	margin: 0px;
+}
+
+p{
+	margin:0px;
+}
+
+/************ CLASS STYLE *************/
+/*//// NOT UNIQUE: USE MANY TIMES ////*/
+
+.specialHeading{
+	color: green;
+}
+
+/************** ID STYLE *************/
+/*////// UNIQUE: ONLY USE ONCE //////*/
+
+#pageHolder{
+	background-color: #36A9E0;
+	width:1000px;
+	height:auto;
+	margin: 0 auto;
+	border:5px solid #36A9E0;
+}
+
+#header{
+	background-color: #E9487F;
+	height:200px;
+}
+
+#torso{
+	background-color:#FCEA0F;
+	border: 5px solid #FCEA0F;
+	height:auto;
+	overflow: auto;
+}
+
+#torsoLeft{
+	background-color: #BECF00;
+	height:150px;
+	width:200px;
+	float:left;
+}
+
+#torsoMiddle{
+	background-color: #6CB42C;
+	height:150px;
+	width:430px;
+	margin-left:10px;
+	float:left;
+}
+
+#torsoRight{
+	background-color: #52B04E;
+	height:150px;
+	width:340px;
+	margin-left:10px;
+	float:right;
+}
+
+#footer{
+	background-color:#EA5A0B;
+	height: 30px;
+}
